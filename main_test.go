@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestReverseString(t *testing.T) {
+func TestReverseStringSuccess(t *testing.T) {
 	data := "data"
 	expected := "atad"
 
