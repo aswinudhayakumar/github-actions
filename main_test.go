@@ -18,7 +18,10 @@ func TestReverseString(t *testing.T) {
 
 func TestGetMode(t *testing.T) {
 	expected := "dev"
+	actual := ""
 
-	actual := os.Getenv("MODE")
+	if os.Getenv("MODE") == "dev" {
+		actual = "dev"
+	}
 	assert.Equal(t, expected, actual)
 }
