@@ -11,10 +11,10 @@ import (
 
 func main() {
 	// err := godotenv.Load(".env-local")
-	if err != nil {
-		fmt.Println("Error loading env file")
-		return
-	}
+	// if err != nil {
+	// 	fmt.Println("Error loading env file")
+	// 	return
+	// }
 	// initialise new router
 	r := chi.NewRouter()
 
