@@ -7,11 +7,10 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/joho/godotenv"
 )
 
 func main() {
-	err := godotenv.Load(".env-local")
+	// err := godotenv.Load(".env-local")
 	if err != nil {
 		fmt.Println("Error loading env file")
 		return
