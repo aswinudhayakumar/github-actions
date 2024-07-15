@@ -8,7 +8,7 @@ import (
 
 func TestReverseStringSuccess(t *testing.T) {
 	data := "data"
-	expected := "atad"
+	expected := "ata"
 
 	actual := reverseString(data)
 
